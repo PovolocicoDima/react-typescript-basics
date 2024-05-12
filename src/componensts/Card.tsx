@@ -3,7 +3,7 @@ import { CardVariant } from "../types/type";
 
 interface CardProps {
   width?: string;
-  height?: string;
+  height: string;
   variant?: CardVariant;
   children: React.ReactNode;
 }
